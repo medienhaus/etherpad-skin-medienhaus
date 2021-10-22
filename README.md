@@ -1,4 +1,4 @@
-<img src="public/favicon.svg" width="70" />
+<img src="img/favicon.svg" width="70" />
 
 ### medienhaus/
 
@@ -12,7 +12,7 @@ Berlin University of the Arts’ free and open-source environment for digital le
 
 This repository contains the **medienhaus/** skin for [etherpad](https://github.com/ether/etherpad-lite).
 
-<img src="etherpad-skin-medienhaus.png" />
+<img src="img/etherpad-skin-medienhaus.png" />
 
 ## Development
 
