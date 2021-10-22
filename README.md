@@ -30,9 +30,4 @@ A skin is a directory located under `static/skins/<skin_name>`, with the followi
 
 You can choose a skin changing the parameter `skinName` in `settings.json`.
 
-Since Etherpad **1.7.5**, two skins are included:
-
-* `no-skin`: an empty skin, leaving the default Etherpad appearance unchanged, that you can use as a guidance to develop your own.
-* `colibris`: a new, experimental skin, that will become the default in Etherpad 2.0.
-
 via: https://github.com/ether/etherpad-lite/edit/develop/doc/skins.md 
