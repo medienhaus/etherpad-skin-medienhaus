@@ -1,0 +1,124 @@
+@import url("../colibris/src/general.css");
+@import url("../colibris/src/layout.css");
+@import url("../colibris/src/pad-editor.css");
+
+@import url("../colibris/src/components/scrollbars.css");
+@import url("../colibris/src/components/buttons.css");
+@import url("../colibris/src/components/popup.css");
+
+@import url("../colibris/src/components/chat.css");
+@import url("../colibris/src/components/sidediv.css");
+@import url("../colibris/src/components/gritter.css");
+@import url("../colibris/src/components/table-of-content.css");
+@import url("../colibris/src/components/toolbar.css");
+@import url("../colibris/src/components/users.css");
+@import url("../colibris/src/components/form.css");
+@import url("../colibris/src/components/import-export.css");
+
+@import url("../colibris/src/plugins/brightcolorpicker.css");
+@import url("../colibris/src/plugins/font_color.css");
+@import url("../colibris/src/plugins/tables2.css");
+@import url("../colibris/src/plugins/set_title_on_pad.css");
+@import url("../colibris/src/plugins/author_hover.css");
+@import url("../colibris/src/plugins/comments.css");
+
+@import url("../colibris/src/pad-variants.css");
+
+@import url("./fonts.css");
+
+:root {
+  --super-dark-color: rgb(0,0,0);
+  --dark-color: rgb(40,40,40);
+
+  --primary-color: rgb(0,0,0);
+  --middle-color: rgb(240,240,240);
+
+  --light-color: rgb(240,240,240);
+  --super-light-color: rgb(255,255,255);
+
+  --text-color: var(--super-dark-color);
+  --text-soft-color: var(--dark-color);
+  --border-color: var(--middle-color);
+  --bg-soft-color: var(--light-color);
+  --bg-color: var(--super-light-color);
+
+  --toolbar-border: none;
+
+  --main-font-family: "Inter", "Apple Color Emoji", "Twemoji", sans-serif !important;
+
+  --editor-horizontal-padding: 40px;
+  --editor-vertical-padding: 25px;
+}
+
+@media (max-width:1000px) {
+  :root {
+    --editor-horizontal-padding: 0px;
+    --editor-vertical-padding: 0px;
+  }
+}
+
+* {
+  border-radius: unset !important;
+}
+
+body {
+  --scrollbar-bg: var(--light-color);
+  --scrollbar-track: var(--super-light-color);
+  --scrollbar-thumb: var(--dark-color);
+}
+
+body.grayedout,
+#editorcontainer,
+#editorcontainerbox {
+  background-color: var(--super-light-color) !important;
+}
+
+#chatbox,
+#chaticon,
+#chatbox.visible,
+#chaticon.visible {
+  visibility: hidden;
+}
+
+#innerdocbody,
+#linemetricsdiv {
+  font-family: "Roboto Mono", "Apple Color Emoji", "Twemoji", monospace !important;
+}
+
+.buttonicon {
+  color: var(--super-dark-color);
+}
+
+.menu_right li a {
+  box-shadow: unset !important;
+}
+
+.nice-select {
+  background: unset;
+  /*
+  border-bottom-color: var(--light-color);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  */
+}
+
+.nice-select::after {
+  border-color: var(--super-dark-color);
+}
+
+.nice-select .list {
+  background-color: var(--super-light-color);
+}
+
+.nice-select .option.focus,
+.nice-select .option.selected.focus,
+.nice-select .option:hover {
+  background-color: var(--light-color);
+}
+
+.popup-content {
+  border-color: var(--super-dark-color);
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: unset;
+}

@@ -1,0 +1,95 @@
+@import url("./fonts.css");
+
+:root {
+  --color-fg: rgb(0,0,0);
+  --color-bg: rgb(255,255,255);
+  --color-hi: rgb(228,9,59);
+  --color-lo: rgb(240,240,240);
+  --color-ft: rgb(0,0,0,0.3);
+}
+
+* {
+  font-family: "Inter", "Apple Color Emoji", "Twemoji", sans-serif !important;
+}
+
+body {
+  background: unset;
+  border: unset;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button[type="submit"] {
+  background: unset;
+  background-color: var(--color-fg);
+  border: unset;
+  color: var(--color-bg);
+  left: 299px;
+  top: 0;
+}
+
+button[type="submit"]:hover {
+  background-color: var(--color-hi) !important;
+}
+
+form {
+  border-color: var(--color-fg);
+  border-radius: unset;
+  border-width: 3px;
+}
+
+#button {
+  background: unset;
+  background-color: var(--color-fg);
+  border: unset;
+  box-shadow: unset;
+  color: var(--color-bg);
+  display: block;
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  text-align: center;
+  text-shadow: unset;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+#button:hover {
+  background: unset;
+  background-color: var(--color-hi) !important;
+}
+
+#button:active {
+  box-shadow: unset;
+}
+
+#inner {
+  max-width: 350px;
+  padding-bottom: 4rem;
+  width: 350px;
+}
+
+#label {
+  display: none;
+  /*
+  color: var(--color-ft);
+  text-align: center;
+  text-shadow: unset;
+  */
+}
+
+#padname {
+  max-width: 350px;
+  padding-right: 50px;
+  position: relative;
+}
+
+#wrapper {
+  border: unset;
+  margin: unset;
+  padding: unset;
+  background: unset;
+  box-shadow: unset;
+}
