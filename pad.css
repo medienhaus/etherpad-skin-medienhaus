@@ -31,7 +31,7 @@
   --dark-color: rgb(40,40,40);
 
   --primary-color: rgb(0,0,0);
-  --middle-color: rgb(240,240,240);
+  --middle-color: rgb(180,180,180);
 
   --light-color: rgb(240,240,240);
   --super-light-color: rgb(255,255,255);
@@ -121,4 +121,24 @@ body.grayedout,
   border-style: solid;
   border-width: 1px;
   box-shadow: unset;
+}
+
+/* strike-through */
+s {
+  color: var(--middle-color);
+  text-decoration-thickness: 0.05rem;
+}
+
+/* dark mode */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --super-dark-color: rgb(255,255,255);
+    --dark-color: rgb(240,240,240);
+
+    --primary-color: rgb(255,255,255);
+    --middle-color: rgb(120,120,120);
+
+    --light-color: rgb(40,40,40);
+    --super-light-color: rgb(20,20,20);
+  }
 }
