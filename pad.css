@@ -31,7 +31,7 @@
   --dark-color: rgb(40,40,40);
 
   --primary-color: rgb(0,0,0);
-  --middle-color: rgb(180,180,180);
+  --middle-color: rgb(128,128,128);
 
   --light-color: rgb(240,240,240);
   --super-light-color: rgb(255,255,255);
@@ -136,7 +136,7 @@ s {
     --dark-color: rgb(240,240,240);
 
     --primary-color: rgb(255,255,255);
-    --middle-color: rgb(120,120,120);
+    --middle-color: rgb(128,128,128);
 
     --light-color: rgb(40,40,40);
     --super-light-color: rgb(20,20,20);
