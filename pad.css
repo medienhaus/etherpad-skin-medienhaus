@@ -130,6 +130,13 @@ s {
   text-decoration-thickness: 0.1rem;
 }
 
+/* underline */
+u, #innerdocbody a {
+  color: var(--dark-color);
+  text-decoration-color: var(--dark-color);
+  text-decoration-thickness: 0.075rem;
+}
+
 /* dark mode */
 @media (prefers-color-scheme: dark) {
   :root {
