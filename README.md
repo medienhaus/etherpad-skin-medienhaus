@@ -2,9 +2,9 @@
 
 ### medienhaus/
 
-Berlin University of the Arts’ free and open-source environment for digital learning, teaching, and collaboration.
+Customizable, modular, free and open-source environment for decentralized, distributed communication and collaboration without third-party dependencies.
 
-[Concept Paper](https://medienhaus.dev/) | [Twitter](https://twitter.com/medienhaus_)
+[Website](https://medienhaus.dev/) — [Twitter](https://twitter.com/medienhaus_)
 
 <br>
 
