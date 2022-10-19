@@ -36,6 +36,8 @@
   --light-color: rgb(240,240,240);
   --super-light-color: rgb(255,255,255);
 
+  --comment-color: rgb(255,250,204,1);
+
   --text-color: var(--super-dark-color);
   --text-soft-color: var(--dark-color);
   --border-color: var(--middle-color);
@@ -50,7 +52,7 @@
   --editor-vertical-padding: 25px;
 }
 
-@media (max-width:1000px) {
+@media (max-width: 1000px) {
   :root {
     --editor-horizontal-padding: 0px;
     --editor-vertical-padding: 0px;
@@ -83,6 +85,10 @@ body.grayedout,
 #innerdocbody,
 #linemetricsdiv {
   font-family: "Roboto Mono", "Apple Color Emoji", "Twemoji", monospace !important;
+}
+
+#innerdocbody .ace-line .comment {
+  background-color: var(--comment-color);
 }
 
 .buttonicon {
@@ -148,5 +154,10 @@ u, #innerdocbody a {
 
     --light-color: rgb(40,40,40);
     --super-light-color: rgb(20,20,20);
+  }
+
+  #innerdocbody .ace-line .comment {
+    background-color: var(--middle-color);
+    color: var(--comment-color);
   }
 }
