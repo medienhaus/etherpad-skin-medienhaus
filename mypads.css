@@ -1,0 +1,55 @@
+html {
+  height: 100%;
+}
+
+body {
+  background: unset;
+  border: unset;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 0;
+}
+
+div#mypads {
+  max-width: 300px;
+  width: 100%;
+}
+
+form#password-form {
+  height: 38px;
+  background: #fff;
+  position: relative;
+  border-color: var(--color-fg);
+  border-radius: unset;
+  border-style: solid;
+  border-width: 3px;
+}
+
+form#password-form > input[type="password"] {
+  border: none;
+  box-sizing: border-box;
+  font-size: 15px;
+  font-weight: bold;
+  height: 38px;
+  line-height: 36px;
+  max-width: 350px;
+  outline: none;
+  padding: 0px 40px 0 10px;
+  width: 100%;
+}
+
+form#password-form > button {
+  background-color: var(--color-fg);
+  border: unset;
+  color: var(--color-bg);
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  height: 38px;
+  position: absolute;
+  left: calc(100% - 45px);
+  top: 0;
+  width: 45px;
+}
