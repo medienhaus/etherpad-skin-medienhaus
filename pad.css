@@ -129,6 +129,10 @@ body.grayedout,
   box-shadow: unset;
 }
 
+.readwrite #embedreadonly.acl-write {
+  display: initial !important;
+}
+
 /* strike-through */
 s {
   color: var(--middle-color);
