@@ -40,18 +40,15 @@
 
   --text-color: var(--super-dark-color);
   --text-soft-color: var(--dark-color);
-  --border-color: var(--middle-color);
+  --border-color: var(--light-color);
   --bg-soft-color: var(--light-color);
   --bg-color: var(--super-light-color);
-
-  --toolbar-border: none;
 
   --main-font-family: "Inter", "Apple Color Emoji", "Twemoji", sans-serif !important;
 
   --editor-horizontal-padding: 40px;
   --editor-vertical-padding: 25px;
 }
-
 @media (max-width: 1000px) {
   :root {
     --editor-horizontal-padding: 0px;
@@ -101,11 +98,6 @@ body.grayedout,
 
 .nice-select {
   background: unset;
-  /*
-  border-bottom-color: var(--light-color);
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-  */
 }
 
 .nice-select::after {
@@ -131,6 +123,13 @@ body.grayedout,
 
 .readwrite #embedreadonly.acl-write {
   display: initial !important;
+}
+
+/* fix bottom toolbar border-top color on mobile-layout */
+.super-light-toolbar #pad_title,
+.super-light-toolbar .popup-content,
+.super-light-toolbar .toolbar {
+  --border-color: var(--light-color);
 }
 
 /* strike-through */
